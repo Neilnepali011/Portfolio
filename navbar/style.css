@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 60px;
+}
+
+
+.logo p {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.logo p span {
+    color: red;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul {
+    display: flex;
+    align-items: center;
+}
+
+.links ul li a{
+    display: block;
+    padding: 0px 13px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: .2s font-size;
+}
+
+.links ul li a:hover {
+    font-size: 15.25px;
+    color: rgb(255, 148, 129);
+}
+
+.button button, .texts button {
+    border: none;
+    background-color: rgba(255, 99, 71, 0.815);
+    padding: 5px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s background-color;
+}
+
+.button button:hover, .texts button:hover {
+    background-color: tomato;
+}
+
+.hero-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 0px 50px;
+}
+
+.texts {
+    flex-basis: 50%;
+}
+
+.texts h1 {
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.texts p {
+    font-size: 15px;
+}
+
+.texts button {
+    margin-top: 25px;
+}
+
+.img img {
+    border-radius: 10px;
+}
