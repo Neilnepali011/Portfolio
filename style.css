@@ -29,7 +29,7 @@ body {
 }
 
 .links ul li {
-    list-style: none;
+    /* list-style: none; */
 }
 
 .links ul {
@@ -97,4 +97,92 @@ body {
 
 .img img {
     border-radius: 10px;
+}
+
+.ri-menu-3-line {
+    font-size: 22px;
+    display: none;
+}
+
+/* @media (max-width: 600px) {
+    .ri-menu-3-line {
+        display: block;
+    }
+    .links ul li {
+        display: none;
+    }
+
+    .button button {
+        display: none;
+    }
+    .navbar {
+        width: 100%;
+        padding: 15px 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+} */
+
+.about-me {
+    height: 40vh;
+    background-color: #000;
+    width: 100%;
+    padding: 25px 60px;
+    text-align: center;
+}
+
+.about-me h1 {
+    font-size: 30px;
+    /* text-decoration: underline; */
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.row > p {
+    background-color: #fff;
+    color: #000;
+    padding: 12px 30px;
+}
+
+.lists {
+    text-align: center;
+    height: 40vh;
+}
+
+.lists h1 {
+    margin-bottom: 50px;
+}
+
+
+.box-model {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-model .first {
+    background-color: burlywood;
+}
+
+.box-model .sec {
+    background-color: blue;
+}
+
+.box-model .third {
+    background-color: aquamarine;
+}
+
+.box-model > div {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid tomato;
 }
